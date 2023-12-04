@@ -143,14 +143,28 @@
             }
           
                                           if (answer === 'loadbrowser') {
-                openFullscreenIframe('https://historyessentials.cf/');
+                openFullscreenIframe('/browser.html');
+                answerBox.value = ''; // Clear the input box after opening the iframe
+                resetStreak();
+                return;
+            }
+
+		                                          if (answer === 'loadultraviolet') {
+                openFullscreenIframe('https://developmentbuild.herokuapp.com');
                 answerBox.value = ''; // Clear the input box after opening the iframe
                 resetStreak();
                 return;
             }
 
                                                     if (answer === 'loadroblox') {
-                openFullscreenIframe('https://rhodium.ryansong12.repl.co/service/https://www.gamenora.com/full/roblox/');
+                openFullscreenIframe('https://ludicrous.icu/route/?query=https://www.gamenora.com/full/roblox/');
+                answerBox.value = ''; // Clear the input box after opening the iframe
+                resetStreak();
+                return;
+            }
+
+		                                                    if (answer === 'loadludicrous') {
+                openFullscreenIframe('https://ludicrous.icu');
                 answerBox.value = ''; // Clear the input box after opening the iframe
                 resetStreak();
                 return;
